@@ -1,0 +1,23 @@
+//Nombre:Area de un Triangulo
+//Autor:Ariel Flores Chumacero
+//Fecha:3/sep/2015
+#include "stdafx.h"
+#include "conio.h"
+#include "iostream"
+
+using namespace std;
+
+
+void main()
+{
+	float area,base,altura;//declaraciòn de variable
+	cout<<"Ingrese base:";//entrada de datos 1
+    cin>>base;//recoge flujo de datos 1
+	cout<<"Ingrese altura:";//entrada de datos 2
+	cin>>altura;//recoge flujo de datos 2
+	area=(base*altura)/2;//formula
+	cout<<"El area es: "<<area;//resultado
+	getch();//detener la pantalla
+	 
+}
+
