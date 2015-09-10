@@ -1,0 +1,32 @@
+// Determinar el mayor de tres numeros
+//Autor: Ariel Arturo Flores Ch.
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main()
+{ 
+	int A,B,C,D;
+	cout<< "Ingrese A:";
+	cin>> A;
+	cout<< "Ingrese B:";
+	cin>> B;
+	cout<< "Ingrese C:";
+	cin>> C;
+	
+	if (A>C)
+	cout<<"El mayor es: "<<A<<endl;
+	else cout<<"El mayor es: "<<C<<endl;
+    
+	if (C>B)
+	cout<<"El mayor es: "<<C<<endl;
+	else cout<< "El mayor es: " <<B<<endl;
+
+	if(A>B)
+	cout<<"El mayor es:" <<A<<endl;
+	else cout<< "El mayor es:" <<B<<endl;
+	getch();
+}
+	
