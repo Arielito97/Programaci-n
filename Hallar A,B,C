@@ -1,0 +1,47 @@
+// A,B,C.cpp : Defines the entry point for the console application.
+//Autor. Ariel Flores Chumacero
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+  int A,B,C;
+  cin>>A>>B>>C;
+  if(A==B)
+	 if(A==C)
+		  cout<< "Los tres son iguales"<<endl;
+	  else
+		  cout<< " Es igual a"<<B<<endl;
+  else 
+	  if(A==C)
+		  cout<<A<< " es igual a" <<C<< endl;
+	  else
+		  if(B==C)
+			  cout<<B<< " es igual a" <<C<< endl;
+		  else 
+			  cout<<" Todos los valores son diferentes" <<endl;
+
+ if (A>B)
+  if (A>C){
+	  cout<<" el mayor es:"<<A<<endl;
+	  if (B>C)
+		  cout<<" el menor es:"<<C<< endl;
+	  else
+
+		 cout<<" el menor es:"<<B<< endl;
+  }
+  else{
+	  cout<<" El mayor es : "<<C<<endl;
+	  cout<< " El menor es" <<B<< endl;
+  }
+ else
+if(B>C) {
+	cout<< "El mayor es:" <<C<< endl;
+	cout<< " El menor es:"<<A<< endl;
+}
+getch();
+}
