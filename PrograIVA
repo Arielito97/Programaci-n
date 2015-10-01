@@ -1,0 +1,30 @@
+// ProIVAines the entry point for the console application.
+// Autor:Ariel Arturo Flores Chumacero
+// fecha: 1/10/2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+
+{
+   
+	float iva, sueldo,suma=0,sueldomin;
+	int i,n;
+		cout<< "Ingrese numero de empleados: " ;
+	    cin>> n ;
+
+		sueldomin=2*1656;
+		for(i=1;i<=1;i++)
+		{
+		cout<< "Ingrese sueldo de empleado:"<<i<<":";
+		cin>> sueldo;
+		iva=0;
+		if (sueldo<sueldomin*0,13)
+			cout<<"El impuesto a pagar del empleado:" <<i<< ":"<<iva<<endl;
+		suma=suma+iva;
+		}
+		cout<<"El impuesto total a pagar es:"<<suma<<endl;
+		getch();
+}
